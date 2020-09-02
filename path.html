@@ -5,15 +5,30 @@
 
 	<head>
 		<title>Wanderer</title>
+		<style>
+	        * {
+	            margin: 0;
+	            padding: 0;
+	        }
+	        .imgbox {
+	            display: grid;
+	            height: 100%;
+	        }
+	        .center-fit {
+	            max-width: 100%;
+	            max-height: 100vh;
+	            margin: auto;
+	        }
+    	</style>
 	</head>
 
 	<body>
-
-		<img src="pic/tavern.png" alt="Please notify me. Thank you!" usemap="path" width = 963 height = 720>
+	<div class = "imgbox">
+		<img src="pic/tavern.png" alt="Please notify me. Thank you!" usemap="#path">
 		<map name = "path" >
 			<area title = "home" alt = "home" shape = "poly" coords="467,187, 493,186,7, 492,203, 503,223, 461,223, 473,214" href = "index.html">
 			<area title = "CSCI571" alt = "CSCI571" shape = "poly" coords="335,318, 359,285, 381,282, 391,301, 387,316, 405,332, 411,385, 393,449, 321,418, 333,330, 355,321" href = "daccel22.html">
 		</map>
-
+	</div>
 	</body>
 </html>
