@@ -1,0 +1,23 @@
+body{
+	background-color:palegoldenrod;
+}
+table, th, td {
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+}
+a {
+	color: gold;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.imgBox {
+	text-align: center;
+	margin: 0 auto;
+}
