@@ -1,55 +1,151 @@
-h1 {
-	color:  #293ea2;
-	position: relative;
-	left: 1in;
+p.a {
+	font-family: Arial, Helvetica, sans-serif;
 }
-.fixPic {
-	position:fixed;
-	top: 1.8in;
-	left: 1in;
-	width: 1400px;
+div {
+	width:1400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+h1 {
+	color: #0048be;
+	position: relative;
+	font-family: "Ubuntu Condensed";
+
+}
+}
+div.menu {
+	height:200px;
+}
+p.menu_content {
+	font-size: 10pt;
+	line-height: 100%;
+}
+div.mainPic {
 	height: 700px;
 }
-div.advertise {
-	position:absolute;
-	top: 2.2in;
-	left: 2in;
-	color: #3737c2;
+.fixPic {
+	text-align: center;
+	width:1400px;
+	height:700px;
+	position:fixed;
+	display: block;
 }
+div.shopBlock {
+	margin-left: 0px;
+	position: relative;
+	left:0.6in;
+	top:1.6in;
+	width:150px;
+	height:60px;
+	background-color: white;
+}
+.ad {
+	position:relative;
+	left:0.6in;
+	top:1in;
+	color: #0048be;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size:60px;
+}
+.shop {
+	position:relative;
+	width:150px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	font-size:25px;
+}
+div.define {
+	position:relative;
+	height:150px;
+	line-height: 150px;
+	text-align: center;
+	font-size:45px;
+	color:#0048be;
+}
+div.row_pic {
+	position: relative;
+  	display: flex;
+}
+div.column_pic {
+  	float: left;
+  	margin-left:0;
+  	width:48%;
+  	background-color: green;
+}
+img.show {
+	width:100%;
+	height:100%;
+}
+div.column_bak {
+  	float: left;
+  	width: 3%;
+  	background-color: white;
+}
+div.column_color {
+	float: left;
+	width: 2%;
+	background-color: #96e2e9;
+}
+div.row_name {
+	position: relative;
+  	display: flex;
+  	height:250px;
+}
+div.column_name {
+  float: left;
+  width: 50%;
+  height:100%;
+  padding: 25px;
+  margin-left:0;
+}
+.picName {
+	position:relative;
+	text-align: center;
+	font-size:35px;
+	line-height: 100%;
+	color:#0048be;
+}
+
+div.bottom {
+	position:relative;
+	background-color: black;
+	width:100%;
+	height:60px;
+}
+
+
+
+
 #col1 {
 	position: relative;
-	left:	1in;
-	top: .2in;
-	color: #3737c2;
+	left:	0in;
+	color: #175bc4;
 }
 #col2 {
 	position: relative;
-	left:	1.3in;
-	top: .2in;
+	left:	0.3in;
 }
 #col3 {
 	position: relative;
-	left:	1.6in;
-	top: .2in;
+	left:	0.6in;
 }
 #col4 {
 	position: relative;
-	left:	1.9in;
-	top: .2in;
+	left:	0.9in;
 }
 #col5 {
 	position: relative;
-	left:	2.2in;
-	top: .2in;
+	left:	1.2in;
 }
 #col6 {
 	position: relative;
-	left:	2.5in;
-	top: .2in;
+	left:	1.5in;
 }
 #col7 {
 	position: relative;
-	left:	2.8in;
-	top: .2in;
+	left:	1.8in;
 }
 
