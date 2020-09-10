@@ -5,6 +5,12 @@
 	<title>Wanderer</title>
 	<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" language="javascript">
+		function printDate() {
+			var d = new Date(); 
+			document.write("Time ticket: " + d.toLocaleString());
+		}
+	</script>
 </head>
 
 <body>
@@ -16,23 +22,57 @@
 
 		<!-- Login form -->
 		<h3></h3>
-		<h4>Login</h4>
-		<form action = "https://daccel22.github.io/path.html" method = "get">
+		<div>
+			<h4>Login</h4>
+			<form action = "https://daccel22.github.io/path.html" method = "get">
 
-			<!-- Username -->
-			<label>
-				Username
-				<input name = "username" type = "text" placeholder = "username" required>
-			</label>
+				<!-- Username -->
+				<label>
+					Username
+					<input name = "username" type = "text" placeholder = "username" required>
+				</label>
 
-			<!-- Password -->
-			<label for = "password">Password</label>
-			<input id = "password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "password" required>
+				<!-- Password -->
+				<label for = "password">Password</label>
+				<input id = "password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "password" required>
 
-			<!-- Login button -->
-			<button>Login</button>
+				<!-- Login button -->
+				<button>login</button>
 
-		</form>
+			</form>
+		</div>
+
+		<p></p>
+		<h5>or</h5>
+		<p></p>
+		
+		<!-- Register Form -->
+		<div>
+			<h4>Register</h4>
+			<form action = "https://daccel22.github.io/path.html" method = "send">
+				<!-- Username -->
+				<label>
+					Username
+					<input name = "username" type = "text" placeholder = "username" required>
+				</label>
+
+				<!-- Password -->
+				<label for = "password">Password</label>
+				<input id = "password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "password" required>
+
+				<!-- Login button -->
+				<button>register</button>
+
+			</form>
+		</div>
+		
+
+		<!-- Time -->
+		<div class="date">
+			<script type="text/javascript" language="javascript">
+				printDate();
+			</script>
+		</div>
 
 </body>
 </html>
