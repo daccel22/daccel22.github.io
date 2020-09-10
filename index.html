@@ -10,6 +10,10 @@
 			var d = new Date(); 
 			document.write("Time ticket: " + d.toLocaleString());
 		}
+		function sayYourName() {
+			var name = prompt("What is your name?"," ");
+			document.write("<h3>Start your journey here, " + name + "</h3>");
+		}
 	</script>
 </head>
 
@@ -18,7 +22,12 @@
 	<HR>
 	<p>This is a new beginning.</p>
 
-	<h3>Start your journey here</h3>
+	<!-- Please say your name -->
+	<div>
+		<script language="javascript">
+			sayYourName();
+		</script>
+	</div>
 
 		<!-- Login form -->
 		<h3></h3>
@@ -59,6 +68,9 @@
 				<!-- Password -->
 				<label for = "password">Password</label>
 				<input id = "register_password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "password" required>
+				<!-- Retype password --> 
+				<label for = "password">Retype</label>
+				<input id = "retype_password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "please retype password" required>
 
 				<!-- Login button -->
 				<button>register</button>
