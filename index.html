@@ -11,8 +11,17 @@
 			document.write("Time ticket: " + d.toLocaleString());
 		}
 		function sayYourName() {
-			var name = prompt("What is your name?"," ");
-			document.write("<h3>Start your journey here, " + name + "</h3>");
+			var name = prompt("What is your name?");
+			if(name == null || name.length == 0)
+				document.write("<h3>Start your journey here</h3>");
+			else
+				document.write("<h3>Start your journey here, " + name + "</h3>");
+		}
+		function confirmAdventure(form) {
+			var msg = "Are you sure you want to start the adventure?\n";
+			if(confirm(msg)) {
+				window.location.href = "path.html";
+			}
 		}
 	</script>
 </head>
@@ -33,8 +42,7 @@
 		<h3></h3>
 		<div>
 			<h4>Login</h4>
-			<form action = "https://daccel22.github.io/path.html" method = "get">
-
+			<form target = "_blank" action = "https://daccel22.github.io/path.html" method = "get">
 				<!-- Username -->
 				<label>
 					Username
@@ -44,9 +52,9 @@
 				<!-- Password -->
 				<label for = "password">Password</label>
 				<input id = "login_password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "password" required>
-
+				
 				<!-- Login button -->
-				<button>login</button>
+				<button onclick="confirmAdventure(this)">login</button>
 
 			</form>
 		</div>
