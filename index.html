@@ -5,25 +5,7 @@
 	<title>Wanderer</title>
 	<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
-	<script type="text/javascript" language="javascript">
-		function printDate() {
-			var d = new Date(); 
-			document.write("Time ticket: " + d.toLocaleString());
-		}
-		function sayYourName() {
-			var name = prompt("What is your name?");
-			if(name == null || name.length == 0)
-				document.write("<h3>Start your journey here</h3>");
-			else
-				document.write("<h3>Start your journey here, " + name + "</h3>");
-		}
-		function confirmAdventure(form) {
-			var msg = "Are you sure you want to start the adventure?\n";
-			if(confirm(msg)) {
-				window.location.href = "path.html";
-			}
-		}
-	</script>
+	<script src="js/myscript.js"></script>
 </head>
 
 <body>
@@ -33,7 +15,7 @@
 
 	<!-- Please say your name -->
 	<div>
-		<script language="javascript">
+		<script>
 			sayYourName();
 		</script>
 	</div>
@@ -54,8 +36,9 @@
 				<input id = "login_password" name = "password" type = "password" pattern = ".{9,20}" placeholder = "password" required>
 				
 				<!-- Login button -->
+				
 				<button onclick="confirmAdventure(this)">login</button>
-
+				
 			</form>
 		</div>
 
@@ -89,7 +72,7 @@
 
 		<!-- Time -->
 		<div class="date">
-			<script type="text/javascript" language="javascript">
+			<script>
 				printDate();
 			</script>
 		</div>
