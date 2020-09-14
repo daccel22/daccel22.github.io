@@ -7,8 +7,8 @@ h1 {
 	text-align: center;
 }
 div.courses {
-	width: 1000px;
-	height:500px;
+	width: 1400px;
+	height:700px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -23,15 +23,15 @@ div.row {
 	margin-left: auto;
 	margin-right: auto;
 	width:950px;
-	height:150px;
-	top:120px;
+	height:195px;
+	top:127px;
   	display: flex;
 }
 div.book {
 	float: middle;
-	width: 100px;
-	height:140px;
-	margin-left:30px;
+	width: 160px;
+	height:195px;
+	margin-left:50px;
 }
 img.course {
 	width:100%;
@@ -39,16 +39,16 @@ img.course {
 }
 .name {
 	position: relative;
-	top:-120px;
-	width:80px;
-	font-size:11px;
-	margin-left: 10px;
+	top:-160px;
+	width:115px;
+	font-size:13px;
+	margin-left: 25px;
 	color:white;
 	text-align:center;
 }
 div.return {
 	position: relative;
-	right: -1050px;
+	right: -1450px;
 	top:-75px;
 	width:70px;
 	height:70px;
