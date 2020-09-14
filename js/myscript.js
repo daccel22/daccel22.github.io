@@ -9,7 +9,7 @@
 /** *************************************************************** *
   * Function_1: sayYourName()										*
   *																	*
-  * - Ask the visitor's name in advance		 						*
+  * - Ask visitor her/his name in advance		 					*
   *																	*
   * --------------------------------------------------------------- */
 function sayYourName() {
@@ -24,7 +24,7 @@ function sayYourName() {
 /** *************************************************************** *
   * Function_2: printTime()											*
   *																	*
-  * - Print the time in the bottom of website 						*
+  * - Print the time of arriving in the bottom of website 			*
   *																	*
   * --------------------------------------------------------------- */
 function printTime() {
@@ -36,7 +36,7 @@ function printTime() {
 /** *************************************************************** *
   * Function_3: confirmAdventure()									*
   *																	*
-  * - Ask visitor politely whether she/he want to leave home  		*
+  * - Ask visitor politely whether she/he wants to leave home  		*
   *   for adventure.												*
   *																	*
   * --------------------------------------------------------------- */
